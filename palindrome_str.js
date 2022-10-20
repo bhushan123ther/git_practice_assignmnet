@@ -1,13 +1,13 @@
 let str = "abba";
-let len = char.length;
+let len = str.length-1;
 let rev = "";
 
 for(let i=len; i>=0; i--){
-      rev = rev + char[i]; 
+      rev = rev + str[i]; 
 }
-if(rev == char){
-  
+if(rev == str){
+  console.log("Yes")
 }
 else{
-  
+  console.log("No")
 }
